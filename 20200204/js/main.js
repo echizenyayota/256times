@@ -7,6 +7,9 @@
 
   function styleBackground() {
     box1.style.background = 'orange';
+    if () {
+      // backgroundが'orange'であれば'pink'に戻す
+    }
   }
 
   box1.addEventListener('click', () => {
