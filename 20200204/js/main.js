@@ -18,7 +18,7 @@
   });
 
   box3.addEventListener('click', () => {
-
+    box3.textContent = Math.floor(Math.random() * 6) + 1;
   });
 
 
