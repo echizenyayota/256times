@@ -7,7 +7,6 @@
 
   function styleBackground() {
     box1.style.background = 'orange';
-    setTimeout(styleBackground, 500);
   }
 
   box1.addEventListener('click', () => {
