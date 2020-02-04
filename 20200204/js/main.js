@@ -5,8 +5,13 @@
   const box3 = document.getElementById('box3');
   let i = 0
 
+  function styleBackground() {
+    box1.style.background = 'orange';
+    setTimeout(styleBackground, 500);
+  }
+
   box1.addEventListener('click', () => {
-      box1.style.background = 'orange';
+    styleBackground();
   }); 
 
   box2.addEventListener('click', () => {
@@ -14,7 +19,7 @@
   });
 
   box3.addEventListener('click', () => {
-    
+
   });
 
 
