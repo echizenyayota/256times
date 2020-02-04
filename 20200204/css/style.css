@@ -1,0 +1,31 @@
+#container {
+  display: flex;
+}
+
+#box1 {
+  background: pink;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 96px;
+}
+
+#box2 {
+  background: pink;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 96px;
+}
+
+#box3 {
+  background: pink;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 96px;
+}
+
