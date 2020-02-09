@@ -7,8 +7,9 @@
 
   function styleBackground() {
     box1.style.background = 'orange';
-    if () {
+    if (box1.style.background === 'orange') {
       // backgroundが'orange'であれば'pink'に戻す
+      box1.style.background = 'pink';
     }
   }
 
@@ -23,8 +24,4 @@
   box3.addEventListener('click', () => {
     box3.textContent = Math.floor(Math.random() * 6) + 1;
   });
-
-
-
-
 }
