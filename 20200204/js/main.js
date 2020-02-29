@@ -6,13 +6,13 @@
   let i = 0
 
   function styleBackgroundOrange() {
-    box1.style.background = 'orange';
-    setTimeout(styleBackgroundOrange, 300);
+    box1.style.background = 'pink';
+    setTimeout(styleBackgroundOrange, 1000);
   }
 
   box1.addEventListener('click', () => {
     styleBackgroundOrange();
-    box1.style.background = 'pink';
+    box1.style.background = 'orange';
   }); 
 
   box2.addEventListener('click', () => {
@@ -22,8 +22,4 @@
   box3.addEventListener('click', () => {
     box3.textContent = Math.floor(Math.random() * 6) + 1;
   });
-
-
-
-
 }
