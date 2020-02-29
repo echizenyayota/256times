@@ -5,13 +5,13 @@
   const box3 = document.getElementById('box3');
   let i = 0
 
-  function styleBackground() {
+  function styleBackgroundOrange() {
     box1.style.background = 'orange';
-    setTimeout(styleBackground, 300);
+    setTimeout(styleBackgroundOrange, 300);
   }
 
   box1.addEventListener('click', () => {
-    styleBackground();
+    styleBackgroundOrange();
     box1.style.background = 'pink';
   }); 
 
