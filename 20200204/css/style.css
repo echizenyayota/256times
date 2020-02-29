@@ -22,6 +22,10 @@
   user-select: none;
 }
 
+#box1:active {
+  background: orange;
+}
+
 #box3 {
   background: pink;
   width: 100px;
