@@ -7,11 +7,12 @@
 
   function styleBackground() {
     box1.style.background = 'orange';
-    setTimeout(styleBackground, 500);
+    setTimeout(styleBackground, 300);
   }
 
   box1.addEventListener('click', () => {
     styleBackground();
+    box1.style.background = 'pink';
   }); 
 
   box2.addEventListener('click', () => {
@@ -19,7 +20,7 @@
   });
 
   box3.addEventListener('click', () => {
-
+    box3.textContent = Math.floor(Math.random() * 6) + 1;
   });
 
 
