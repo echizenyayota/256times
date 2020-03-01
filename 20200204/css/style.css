@@ -32,3 +32,25 @@
   user-select: none;
 }
 
+.box{
+  animation: flash 1s linear ;
+  width:50px;
+  height:50px;
+  background:pink;
+}
+
+@keyframes flash {
+  0% {
+    background:orange;
+  }
+
+  99% {
+   background:orange;
+  }
+
+
+  100% {
+    background:pink;
+  }
+}
+
